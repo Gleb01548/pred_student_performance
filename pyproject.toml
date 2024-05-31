@@ -1,0 +1,30 @@
+[project]
+name = "test_institut"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Gleb Budnik", email = "budnikgleb@mail.ru"},
+]
+dependencies = [
+    "pandas>=2.2.2",
+    "catboost>=1.2.5",
+    "notebook>=7.2.0",
+    "ipykernel>=6.29.4",
+    "openpyxl>=3.1.2",
+    "pyarrow>=16.1.0",
+    "tqdm>=4.66.4",
+    "scikit-learn>=1.5.0",
+    "torch>=2.3.0",
+    "transformers>=4.41.2",
+    "langchain>=0.2.1",
+    "langchain-community>=0.2.1",
+    "accelerate>=0.30.1",
+    "datasets>=2.19.1",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
